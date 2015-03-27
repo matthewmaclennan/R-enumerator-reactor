@@ -1,0 +1,24 @@
+#reaction enumerator
+#
+#These (sets of) programs will react starting materials by breaking and making bonds, 
+#according to certain boundaries and rates, which will be tunable.
+#SMILES notation will be used based on the programs for enumerating 
+#cycles and acyclic originators.
+#
+#
+#Enumerating this way will be tricky because now electron flow will need to be considered top 
+#priority, complicating SMILES notations. Electron flow gives rise to H patching.
+#
+#The initial focus will be on enumerating the (types of) molecules which are formed upon bond breaking and bond formation.
+#
+#A key feature will be the probability ranking of enumerated species. Generated species will be ranked in terms of their 
+#relative stabilities. This will be useful in trimming the enumeration results from "all species" to "stable species". 
+#For instance, homolytic bond cleavage appears to be less favourable in most systems compared to heterolytic bond cleavage.
+#Therefore, a simple ranking system could be based on bond polarities and their relationship to reactivity (most or least 
+#likely to react).
+#
+#All possible products within (2 electron reason) will be considered and the reaction pathways by which such molecules could
+#arise will be justified a posteriori. This is important physically because the state of the early universe was such that many
+#chemical processes that do not occur spontaneously in the universe's current state may have been spontaneous. In fact, a great 
+#many chemical reactions and species may have been easily formed with almost equal probability, further justifying an 
+#enumerative approach.
