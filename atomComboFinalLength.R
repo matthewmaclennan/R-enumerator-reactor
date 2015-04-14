@@ -7,6 +7,5 @@ atomComboFinalLength<-function(atomlist,finallength){
   for(i in 1:finallength){
     listing[[i]]<-atomlist
   }  
-  listing<-listing
   atomstrings<-do.call(paste0,expand.grid(listing))
 }
